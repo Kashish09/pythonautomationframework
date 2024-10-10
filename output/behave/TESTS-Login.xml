@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="36.873066425323486" tests='1' skipped='0'
+name="Login" failures='0' errors='0'><testcase time="36.873066425323486" name="Login,_Order_Books,_Checkout_And_Download_Invoice" status="passed"
+         classname="Validate_Login_Feature"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @customdownloadfolder   @login   @web_test
+                scenario: Login, Order books, checkout and download invoice
+                given I open DemoWebShop Login page ... Status.passed in 6.666s 
+                given I go to books page ... Status.passed in 5.851s 
+                then I add books to cart ... Status.passed in 0.7037s 
+                then I go to cart and checkout ... Status.passed in 6.396s 
+                then I enter information on checkout page and confirm the Order ... Status.passed in 2.86s 
+                then I see the order confirmation page and click on invoice link to go to invoice page ... Status.passed in 3.983s 
+                then I download invoice ... Status.passed in 10.41s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>

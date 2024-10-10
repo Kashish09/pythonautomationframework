@@ -1,0 +1,13 @@
+@login @web_test
+Feature: Validate Login Feature # features/Login.feature:2
+
+  @customdownloadfolder
+  Scenario: Login, Order books, checkout and download invoice                              # features/Login.feature:5
+    Given I open DemoWebShop Login page                                                    # features/steps/LoginSteps.py:14
+    And I go to books page                                                                 # features/steps/LoginSteps.py:38
+    Then I add books to cart                                                               # features/steps/LoginSteps.py:43
+    And I go to cart and checkout                                                          # features/steps/LoginSteps.py:49
+    Then I enter information on checkout page and confirm the Order                        # features/steps/LoginSteps.py:56
+    Then I see the order confirmation page and click on invoice link to go to invoice page # features/steps/LoginSteps.py:68
+    And I download invoice                                                                 # features/steps/LoginSteps.py:76
+

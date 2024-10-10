@@ -1,0 +1,18 @@
+﻿13:41:53 - DEBUG - Starting scenario Login, Order books, checkout and download invoice
+13:41:53 - DEBUG - Starting scenario tags ['customdownloadfolder']
+13:41:57 - DEBUG - Opening DemoWenShop Login page
+13:42:03 - DEBUG - Entering login credentials
+13:42:04 - DEBUG - Opening Books page
+13:42:10 - DEBUG - Adding books to cart
+13:42:10 - DEBUG - Books added to cart
+13:42:10 - DEBUG - Clicking cart button
+13:42:16 - DEBUG - Clicking checkout button on cart page
+13:42:17 - DEBUG - On checkout page
+13:42:19 - DEBUG - Entered information on checkout page
+13:42:20 - DEBUG - Clicked confirm order button
+13:42:20 - DEBUG - On order confirmation page
+13:42:22 - DEBUG - Clicking on download invoice link
+13:42:24 - DEBUG - On invoice page
+13:42:24 - DEBUG - Clicking on download invoice page
+13:42:36 - DEBUG - Finishing scenario Login, Order books, checkout and download invoice
+13:42:36 - DEBUG - Releasing driver
